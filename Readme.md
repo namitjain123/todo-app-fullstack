@@ -83,9 +83,12 @@ TodoApp/
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
+```
 ---
 
 ##  Authentication Flow (JWT)
+
+```text
 User Login
 ↓
 FastAPI /token
@@ -103,9 +106,11 @@ Sent with every request
 get_current_user()
 ↓
 User Authenticated ✅
+```
 ---
 
 ## Cookie Authentication Flow
+```text
 Login success
    ↓
 Token stored in cookie
@@ -117,9 +122,13 @@ Cookie auto-attached
 Backend verifies user
    ↓
 Access granted ✅
+```
 ---
-Setup Instructions
-1️⃣ Clone Repo
+
+## Setup Instructions
+
+1️⃣ Clone Repository
+```bash
 git clone <your-repo-url>
 cd todoapp
 
@@ -152,21 +161,22 @@ App runs on:
 
 http://127.0.0.1:8000
 
+```
 ---
-🧠 Key Learnings
-FastAPI Dependency Injection
-JWT Authentication
-PostgreSQL + Supabase Integration
-Clean Backend Architecture
-Testing with Pytest
-Cookie-based auth handling
+## Key Learnings
+- FastAPI Dependency Injection
+- JWT Authentication
+- PostgreSQL + Supabase Integration
+- Clean Backend Architecture
+- Testing with Pytest
+- Cookie-based auth handling
 
 ---
-🚀 Future Improvements
-React Frontend Integration
-Role-based Access Control (RBAC)
-Pagination & Filtering
-Deployment (AWS / Azure)
+## Future Improvements
+- React Frontend Integration
+- Role-based Access Control (RBAC)
+- Pagination & Filtering
+- Deployment (AWS / Azure)
 
 ---
 📌 Author
